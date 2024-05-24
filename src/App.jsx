@@ -49,9 +49,8 @@ function App() {
 
       <Header/>
       <Main/>
-      <button onClick={top} className='bactop' id='#'><GoArrowUp /></button>
       <Footer/>
-        
+      <button onClick={top} className='bactop' id='#'><GoArrowUp /></button>
   
       <footer id='contact'>
         <div className="container">
