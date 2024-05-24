@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth !important;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    cursor: default !important;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 100;
+    box-shadow: 16px 92px 92px -67px rgba(0,0,0,0.45);
+}
+
+.header_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+    display: none;
+    position: absolute;
+    margin-top: -23px;
+}
+
+.header_box_free {
+    position: relative;
+}
+
+.menu_h3 {
+    margin-top: -15px;
+    position: absolute;
+    margin-left: 23px;
+    color: #FF6464;
+}
+
+.header_box_link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: -100px;
+
+}
+
+.header_box_link a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .3s linear;
+
+}
+
+.header_box_link a:hover{
+    color: #FF6464;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+/*    F O O T E R    */
+
+.footer_imgs {
+    /* color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 110px 0 26px 0;
+}
+
+.footer_imgs svg {
+    width: 30px;
+    height: 30px;
+    transition: .3s linear;
+
+}
+
+.footer_imgs svg:hover {
+    color: #FF6464;
+    transform: scale(1.09);
+}
+
+.footer_par {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer_par p {
+    font-size: 14px;
+}
+
+/*   B A C T O P   //// */
+
+.bactop {
+    position: absolute;
+    right: 0;
+    margin-top: -5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 50%;
+    background: rgb(225, 223, 223);
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: 6px 4px 88px -20px rgba(0,0,0,0.45);
+    text-align: center;
+}
+
+
+
+
+
+@media(max-width: 1060px){
+    .header_box_link {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 875px){
+    .paragriph_cards{
+        display: flex;
+        justify-content: center ;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 870px){
+    .work_par {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+
+@media(max-width: 788px){
+    .logo_box {
+        justify-content: center;
+        gap: 20px;
+    }
+    .logo_box img{
+      order: -1;
+    }
+}
+
+@media(max-width: 700px){
+    .menu {
+        display: block;
+    }
+    /* .saidbar {
+        width: 300px;
+        height: 300px;
+        left: 0;
+        top: 300px;
+        background: pink;
+        color: black;
+    } */
+   
+}
